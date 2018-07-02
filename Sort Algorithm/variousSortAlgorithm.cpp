@@ -236,7 +236,7 @@ int RadixSort(int *p, int n, int radix, int dis) {
     int bucket[n];//暂存数据
     for (int d = 1; d <= dis; d++) {
         //置空每个桶(基数)
-        memset(count, 0, sizeof(count));
+        fill(count, count+radix, 0);
         //统计每个桶所存放数据个数
         for (i = 0; i < n; i++) {
             v = getDigit(p[i],d);
