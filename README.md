@@ -1,2 +1,2 @@
 # Algorithm
-Algorithm Summary
+Summary of common data structure and algorithm
